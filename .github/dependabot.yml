@@ -12,6 +12,8 @@ updates:
           - version-update:semver-minor
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 7
     target-branch: "main"
     groups:
       guide-dependencies-maven:
@@ -29,6 +31,8 @@ updates:
           - version-update:semver-minor
     schedule:
       interval: "monthly"
+    cooldown:
+      default-days: 7
     target-branch: "main"
     groups:
       guide-dependencies-gradle:
